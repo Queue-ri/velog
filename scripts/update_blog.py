@@ -38,7 +38,7 @@ for entry in feed.entries:
 
         # 깃허브 커밋
         repo.git.add(file_path)
-        repo.git.commit('-m', f'docs: Add {entry.title}')
+        repo.git.commit('-m', f'ci(docs): Auto commit {entry.title}')
 
 # 변경 사항을 깃허브에 푸시
 repo.git.push()
