@@ -5,7 +5,7 @@ on:
       branches:
         - main
   schedule:
-    - cron: '30 12 * * *' # UTC 12:30 (KST 21:30)
+    - cron: '0 12 * * *' # UTC 12:00 (KST 21:00)
 
 jobs:
   update_blog:
